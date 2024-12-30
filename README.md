@@ -34,11 +34,6 @@ git clone https://github.com/jpobletec/java21-kafka.git
 cd java21-kafka
 ```
 
-### Build the Application
-```bash
-mvn clean install
-```
-
 ### Run with Docker Compose
 Start the entire environment, including Kafka and the application:
 ```bash
@@ -149,5 +144,5 @@ docker-compose logs app
 ## Troubleshooting
 
 ### Messages Still Appear in Kafka
-Kafka retains messages for a configured retention period. To avoid re-processing messages:
+Kafka retains messages for a configured retention period.
 
