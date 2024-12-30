@@ -1,0 +1,7 @@
+spring:
+  kafka:
+    bootstrap-servers: kafka:9092
+    consumer:
+      group-id: group_id
+      enable-auto-commit: false
+      auto-offset-reset: earliest
