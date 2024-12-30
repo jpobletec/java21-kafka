@@ -30,8 +30,8 @@ This project demonstrates a microservices-based architecture using **Spring Boot
 
 ### Clone the Repository
 ```bash
-git clone <repository-url>
-cd microservices-kafka-project
+git clone https://github.com/jpobletec/java21-kafka.git
+cd java21-kafka
 ```
 
 ### Build the Application
